@@ -1,0 +1,39 @@
+schema_version = "1.4"
+
+artifacts = [
+  "/root/results/tool.py",
+  "/root/results/example_report.json"
+]
+
+[task]
+name = "samples/voltage-collapse-margin"
+description = "Compute the collapse loading of a small transmission network whose generators have reactive-power limits, the bus voltages at collapse and the kind of collapse, as a program for further cases."
+version = "1.0.0"
+keywords = ["power systems", "voltage stability", "loading margin", "reactive power limits"]
+
+[metadata]
+domain = "engineering-sciences"
+category = "electrical-engineering"
+subcategory = "power-systems"
+reward_type = "binary"
+public_overlap = "None"
+
+[verifier]
+timeout_sec = 1800
+environment_mode = "separate"
+network_mode = "no-network"
+
+[verifier.environment]
+network_mode = "no-network"
+cpus = 1
+memory_mb = 2048
+
+[agent]
+timeout_sec = 18000
+network_mode = "public"
+
+[environment]
+network_mode = "public"
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240

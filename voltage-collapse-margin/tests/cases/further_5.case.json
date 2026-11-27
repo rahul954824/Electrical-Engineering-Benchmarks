@@ -1,0 +1,151 @@
+{
+ "case_id": "further_5",
+ "units": "per unit on 100 MVA; angles in degrees",
+ "buses": [
+  {
+   "pd": 0.0,
+   "qd": 0.0,
+   "dpd": 0.0,
+   "dqd": 0.0,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0402,
+   "angle_base_deg": 0.0
+  },
+  {
+   "pd": 0.0,
+   "qd": 0.0,
+   "dpd": 0.0,
+   "dqd": 0.0,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0308,
+   "angle_base_deg": 8.1279
+  },
+  {
+   "pd": 0.4643,
+   "qd": 0.2157,
+   "dpd": 0.6512,
+   "dqd": 0.1985,
+   "gs": 0.0,
+   "bs": 0.1887,
+   "voltage_base_pu": 1.0118,
+   "angle_base_deg": 7.0652
+  },
+  {
+   "pd": 0.8407,
+   "qd": 0.3887,
+   "dpd": 1.0317,
+   "dqd": 0.4778,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0586,
+   "angle_base_deg": -3.5222
+  },
+  {
+   "pd": 0.0,
+   "qd": 0.0,
+   "dpd": 0.0,
+   "dqd": 0.0,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0042,
+   "angle_base_deg": 9.986
+  },
+  {
+   "pd": 0.534,
+   "qd": 0.1098,
+   "dpd": 0.4656,
+   "dqd": 0.2136,
+   "gs": 0.0,
+   "bs": 0.1447,
+   "voltage_base_pu": 1.0624,
+   "angle_base_deg": -2.8904
+  }
+ ],
+ "branches": [
+  {
+   "from": 0,
+   "to": 1,
+   "r": 0.0439,
+   "x": 0.1994,
+   "b": 0.0779,
+   "tap": 1.0
+  },
+  {
+   "from": 0,
+   "to": 3,
+   "r": 0.0,
+   "x": 0.1041,
+   "b": 0.0,
+   "tap": 0.95
+  },
+  {
+   "from": 0,
+   "to": 5,
+   "r": 0.0,
+   "x": 0.0823,
+   "b": 0.0,
+   "tap": 0.98
+  },
+  {
+   "from": 1,
+   "to": 2,
+   "r": 0.0215,
+   "x": 0.1497,
+   "b": 0.0494,
+   "tap": 1.0
+  },
+  {
+   "from": 1,
+   "to": 4,
+   "r": 0.0187,
+   "x": 0.1314,
+   "b": 0.0609,
+   "tap": 1.0
+  },
+  {
+   "from": 2,
+   "to": 4,
+   "r": 0.0263,
+   "x": 0.1525,
+   "b": 0.0102,
+   "tap": 1.0
+  },
+  {
+   "from": 3,
+   "to": 5,
+   "r": 0.0094,
+   "x": 0.081,
+   "b": 0.0156,
+   "tap": 1.0
+  }
+ ],
+ "generators": [
+  {
+   "bus": 0,
+   "slack": true,
+   "vset": 1.0402
+  },
+  {
+   "bus": 1,
+   "slack": false,
+   "pg": 0.6507,
+   "dpg": 0.8715,
+   "vset": 1.0308,
+   "qmin": -0.2327,
+   "qmax": 0.6039,
+   "mode_base": "regulating"
+  },
+  {
+   "bus": 4,
+   "slack": false,
+   "pg": 0.5454,
+   "dpg": 0.7304,
+   "vset": 1.004,
+   "qmin": -0.3635,
+   "qmax": 0.8509,
+   "mode_base": "min"
+  }
+ ]
+}

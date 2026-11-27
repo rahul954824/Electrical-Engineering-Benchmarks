@@ -1,0 +1,169 @@
+{
+ "case_id": "further_3",
+ "units": "per unit on 100 MVA; angles in degrees",
+ "buses": [
+  {
+   "pd": 0.0,
+   "qd": 0.0,
+   "dpd": 0.0,
+   "dqd": 0.0,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0451,
+   "angle_base_deg": 0.0
+  },
+  {
+   "pd": 0.6959,
+   "qd": 0.3142,
+   "dpd": 0.3586,
+   "dqd": 0.1205,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0136,
+   "angle_base_deg": -1.7987
+  },
+  {
+   "pd": 0.6997,
+   "qd": 0.3604,
+   "dpd": 0.6507,
+   "dqd": 0.2071,
+   "gs": 0.0,
+   "bs": 0.1906,
+   "voltage_base_pu": 1.0211,
+   "angle_base_deg": -3.2353
+  },
+  {
+   "pd": 0.5602,
+   "qd": 0.2826,
+   "dpd": 0.7637,
+   "dqd": 0.3917,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0296,
+   "angle_base_deg": -0.1498
+  },
+  {
+   "pd": 0.0,
+   "qd": 0.0,
+   "dpd": 0.0,
+   "dqd": 0.0,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0311,
+   "angle_base_deg": 0.4026
+  },
+  {
+   "pd": 0.7145,
+   "qd": 0.4226,
+   "dpd": 1.0029,
+   "dqd": 0.3757,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0378,
+   "angle_base_deg": -0.9553
+  }
+ ],
+ "branches": [
+  {
+   "from": 0,
+   "to": 1,
+   "r": 0.0234,
+   "x": 0.2045,
+   "b": 0.0301,
+   "tap": 1.0
+  },
+  {
+   "from": 0,
+   "to": 2,
+   "r": 0.0418,
+   "x": 0.1698,
+   "b": 0.051,
+   "tap": 1.0
+  },
+  {
+   "from": 0,
+   "to": 3,
+   "r": 0.0376,
+   "x": 0.162,
+   "b": 0.0667,
+   "tap": 1.0
+  },
+  {
+   "from": 0,
+   "to": 5,
+   "r": 0.0,
+   "x": 0.0794,
+   "b": 0.0,
+   "tap": 1.014
+  },
+  {
+   "from": 1,
+   "to": 4,
+   "r": 0.0,
+   "x": 0.0778,
+   "b": 0.0,
+   "tap": 0.996
+  },
+  {
+   "from": 2,
+   "to": 5,
+   "r": 0.0244,
+   "x": 0.1307,
+   "b": 0.0556,
+   "tap": 1.0
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "r": 0.0404,
+   "x": 0.149,
+   "b": 0.0684,
+   "tap": 1.0
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "r": 0.0415,
+   "x": 0.1484,
+   "b": 0.0156,
+   "tap": 1.0
+  }
+ ],
+ "generators": [
+  {
+   "bus": 0,
+   "slack": true,
+   "vset": 1.0451
+  },
+  {
+   "bus": 3,
+   "slack": false,
+   "pg": 0.4555,
+   "dpg": 0.2974,
+   "vset": 1.0296,
+   "qmin": -0.1257,
+   "qmax": 0.3797,
+   "mode_base": "regulating"
+  },
+  {
+   "bus": 4,
+   "slack": false,
+   "pg": 0.7317,
+   "dpg": 0.4776,
+   "vset": 1.0311,
+   "qmin": -0.2164,
+   "qmax": 0.509,
+   "mode_base": "regulating"
+  },
+  {
+   "bus": 5,
+   "slack": false,
+   "pg": 0.6809,
+   "dpg": 0.4445,
+   "vset": 1.0378,
+   "qmin": -0.2173,
+   "qmax": 0.9284,
+   "mode_base": "regulating"
+  }
+ ]
+}

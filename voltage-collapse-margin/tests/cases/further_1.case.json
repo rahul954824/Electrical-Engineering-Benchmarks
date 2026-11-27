@@ -1,0 +1,179 @@
+{
+ "case_id": "further_1",
+ "units": "per unit on 100 MVA; angles in degrees",
+ "buses": [
+  {
+   "pd": 0.0,
+   "qd": 0.0,
+   "dpd": 0.0,
+   "dqd": 0.0,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0254,
+   "angle_base_deg": 0.0
+  },
+  {
+   "pd": 0.0,
+   "qd": 0.0,
+   "dpd": 0.0,
+   "dqd": 0.0,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0475,
+   "angle_base_deg": -0.413
+  },
+  {
+   "pd": 0.3133,
+   "qd": 0.1805,
+   "dpd": 0.4106,
+   "dqd": 0.2423,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0374,
+   "angle_base_deg": 0.0486
+  },
+  {
+   "pd": 0.3662,
+   "qd": 0.1104,
+   "dpd": 0.5143,
+   "dqd": 0.1574,
+   "gs": 0.0,
+   "bs": 0.232,
+   "voltage_base_pu": 1.0411,
+   "angle_base_deg": -4.3933
+  },
+  {
+   "pd": 0.5205,
+   "qd": 0.2234,
+   "dpd": 0.5718,
+   "dqd": 0.2342,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0188,
+   "angle_base_deg": -5.1178
+  },
+  {
+   "pd": 0.3648,
+   "qd": 0.2232,
+   "dpd": 0.2213,
+   "dqd": 0.0766,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 0.9786,
+   "angle_base_deg": -3.4546
+  },
+  {
+   "pd": 0.7632,
+   "qd": 0.1664,
+   "dpd": 0.8652,
+   "dqd": 0.3955,
+   "gs": 0.0,
+   "bs": 0.0,
+   "voltage_base_pu": 1.0159,
+   "angle_base_deg": -0.5729
+  }
+ ],
+ "branches": [
+  {
+   "from": 0,
+   "to": 1,
+   "r": 0.0,
+   "x": 0.0413,
+   "b": 0.0,
+   "tap": 1.0
+  },
+  {
+   "from": 0,
+   "to": 2,
+   "r": 0.0,
+   "x": 0.1127,
+   "b": 0.0,
+   "tap": 0.96
+  },
+  {
+   "from": 0,
+   "to": 5,
+   "r": 0.0245,
+   "x": 0.1789,
+   "b": 0.0574,
+   "tap": 1.0
+  },
+  {
+   "from": 1,
+   "to": 2,
+   "r": 0.026,
+   "x": 0.0966,
+   "b": 0.045,
+   "tap": 1.0
+  },
+  {
+   "from": 1,
+   "to": 3,
+   "r": 0.0285,
+   "x": 0.1598,
+   "b": 0.0262,
+   "tap": 1.0
+  },
+  {
+   "from": 1,
+   "to": 4,
+   "r": 0.0567,
+   "x": 0.2077,
+   "b": 0.0732,
+   "tap": 1.0
+  },
+  {
+   "from": 2,
+   "to": 6,
+   "r": 0.0139,
+   "x": 0.1313,
+   "b": 0.039,
+   "tap": 1.0
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "r": 0.0132,
+   "x": 0.157,
+   "b": 0.0792,
+   "tap": 1.0
+  }
+ ],
+ "generators": [
+  {
+   "bus": 0,
+   "slack": true,
+   "vset": 1.0254
+  },
+  {
+   "bus": 1,
+   "slack": false,
+   "pg": 0.6581,
+   "dpg": 0.7013,
+   "vset": 1.0449,
+   "qmin": -0.2138,
+   "qmax": 0.6255,
+   "mode_base": "regulating"
+  },
+  {
+   "bus": 2,
+   "slack": false,
+   "pg": 0.4831,
+   "dpg": 0.5148,
+   "vset": 1.0183,
+   "qmin": -0.1106,
+   "qmax": 0.3074,
+   "mode_base": "min"
+  },
+  {
+   "bus": 6,
+   "slack": false,
+   "pg": 0.6597,
+   "dpg": 0.703,
+   "vset": 1.0159,
+   "qmin": -0.151,
+   "qmax": 0.6612,
+   "mode_base": "regulating"
+  }
+ ]
+}
